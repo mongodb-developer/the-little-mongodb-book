@@ -275,7 +275,7 @@ In reality, `countDocuments` is actually a special method that translates into a
 ## In This Chapter ##
 Using `find` and `cursors` is a straightforward proposition. There are a few additional commands that we'll either cover in later chapters or which only serve edge cases, but, by now, you should be getting pretty comfortable working in the mongo shell and understanding the fundamentals of MongoDB.
 
-# Chapter 6 - Aggregating Data #
+# Chapter 4 - Aggregating Data #
 
 ## Aggregation Pipeline ##
 Aggregation pipeline gives you a way to transform and combine documents in your collection.  You do it by passing the documents through a pipeline that's somewhat analogous to the Unix "pipe" where you send output from one command to another to a third, etc.
@@ -462,7 +462,7 @@ You can specify that only a sampling of all operations should be profiled, but e
 In this chapter we looked at various commands, tools, and performance details of using MongoDB. We haven't touched on everything, but we've looked at some of the common ones. Indexing in MongoDB is similar to indexing with relational databases, as are many of the tools. However, with MongoDB, many of these are to the point and simpler to use.
 
 
-# Chapter 8 - Security and Backups #
+# Chapter 7 - Security and Backups #
 
 ## Security ##
 When it was first released, MongoDB did not have security enabled by default. Rather, it relied on the individual performing installation to follow security best practices to lock down the data from malicious actors.  A lot has changed, and many default settings now only allow open access to the data from `localhost` after installation.  You should follow [documented best practices](https://www.mongodb.com/docs/manual/security/) to set up appropriate roles, users and permissions.  
@@ -503,7 +503,7 @@ Note that `mongoexport` and `mongoimport` cannot always represent your data full
 ## In This Chapter ##
 In this chapter we very briefly listed security best practices and reviewed some basic options for backups.
 
-# Chapter 9 - When To Use MongoDB #
+# Chapter 8 - When To Use MongoDB #
 By now you should have a feel for where and how MongoDB might fit into your existing system. There are enough new and competing storage technologies that it's easy to get overwhelmed by all of the choices.
 
 For me, the most important lesson, which has nothing to do with MongoDB, is that you no longer have to rely on a single solution for dealing with your data. No doubt, a single solution has obvious advantages, and for a lot projects - possibly even most - a single solution works. The idea isn't that you *must* use different technologies, but rather that you *can*. Only you know whether the benefits of introducing a new solution outweigh the costs.
